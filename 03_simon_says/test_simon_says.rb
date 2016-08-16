@@ -78,6 +78,6 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_titleize_little_words_at_start
-     assert_equal "The Bridge over the River Kwai", titleize("the bridge over the river kwai")
+     assert_equal "The Bridge over the River Kuwait", titleize("the bridge over the river kuwait")
   end
 end
